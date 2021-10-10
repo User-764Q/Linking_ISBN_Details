@@ -1,0 +1,89 @@
+---
+output: 
+  html_document:
+    toc: true
+    toc_float: 
+      collapsed: false
+  number_sections: true
+ 
+title: "ISBN Linking"
+author: "[User-764Q](https://github.com/User-764Q)"
+date: "`r paste0('Last Run: ', format(Sys.time(), '%A %d-%B-%Y'))`"
+params: 
+  param1: "Don't Forget about params"
+
+---
+
+<style>
+
+#TOC {
+ font-family: Calibri; 
+ font-size: 16px;
+ border-color: #3D68DF;
+ background: #3D68DF;
+}
+
+body {
+  font-family: Garamond;
+  font-size: 16px; 
+  border-color: #D0D0D0;
+  background-color: #D0D0D0;
+  color: #1A1A1A;
+}
+
+pre {
+  color: #1A1A1A
+  background: #D0D0D0;
+  background-color: #D0D0D0
+  font-family: Calibri; 
+  
+}
+
+</style>
+
+```{r setup, include = FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+knitr::opts_chunk$set(collapse = TRUE)
+
+knitr::opts_chunk$set(warning = TRUE)
+
+knitr::opts_chunk$set(message = TRUE)
+
+knitr::opts_chunk$set(include = TRUE)
+
+custom_black <- '1A1A1A'
+custom_white <- 'C0C0C0'
+custom_grey_dark <- '6F6F6F'
+custom_grey_light <- 'B2B2B2'
+custom_accent_blue <- '3D6BFF'
+
+```
+
+### Intro/summary 
+
+[Previously](https://github.com/User-764Q/ISBNS_and_Wikibooks) I extracted ISBNs from a wikibooks data set [hosted on Kaggle](https://www.kaggle.com/dhruvildave/wikibooks-dataset), In this project I want to link those ISBNs to existing data sources to add high quality metadaata to the books. 
+
+```{r libraries etc., message = FALSE }
+
+library(tidyverse)
+
+```
+
+```{r dataload}
+
+
+
+```
+
+# Heading 1 
+
+## Sub Heading 1
+
+### Sub Sub Heading 1
+
+```{r }
+
+```
+
